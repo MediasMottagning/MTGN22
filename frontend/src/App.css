@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  cursor: auto
+}
+.App:hover {
+  cursor: auto
+}
+.App input[type="submit" i] {
+  cursor: pointer
+}
+.App button {
+  cursor: pointer
+}
+.App a:-webkit-any-link {
+  cursor: pointer
+}

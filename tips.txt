@@ -1,0 +1,18 @@
+fixa så att när man skriver fel lösen så får man inte prova igen på
+4 sekunder, fixa på backenden
+
+Bara admin ska kunna ta bort eller lägga till moderatorer eller göra andra till admin
+
+FROM python:3
+
+EXPOSE 8080
+
+RUN mkdir -p /usr/src/api
+WORKDIR /usr/src/api
+
+COPY . /usr/src/api
+
+RUN pip3 install -r requirements.txt
+RUN pip3 install gunicorn
+
+CMD gunicorn --workers 3 --bind=0.0.0.0:8080 --chdir /usr/src/api api:app

@@ -1,0 +1,367 @@
+@keyframes bk {
+    0% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+}
+
+@keyframes popin {
+    0% {
+        transform: scale(0)
+    }
+    70% {
+        transform: scale(1.1)
+    }
+
+    100% {
+        transform: scale(1)
+    }
+  }
+@font-face {
+    font-family: Arcade;
+    src: url(Theaterv04_Bold.ttf);
+  }
+
+.accesses-granted{
+  font-size: 40px;
+  text-align: center;
+  margin-left: 5%;
+  margin-top: 160px;
+}
+
+.login-bg {
+    position: fixed;
+    z-index: 11;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    background-image: url('final_webb_bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .login-box {
+    height: 700px;
+    width: 850px;
+    max-width: 100%;
+    padding: 20px;
+    color: #000000;
+    margin: 6% auto;
+    background-image: url('MOTTAGNINGEN.png') ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin: border-box;
+    font-family: Arcade;
+  }
+
+  .login-box h1 {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: -15%;
+    margin-bottom: 2%;
+    visibility: hidden;
+  }
+
+  .login-box label {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 15%;
+    margin-top: 20px;
+    letter-spacing: 2px;
+  }
+
+  .login-box label::after {
+    font-size: 20px;
+    /*animation: bk 1s infinite alternate;*/
+  }
+
+  .login-box input[type=text]:focus, .login-box input[type=password]:focus {
+      outline-color: #ffffff;
+  }
+
+  .login-box input[type=text], .login-box input[type=password] {
+      max-width: 80%;
+    background-color: rgb(53, 53, 53);
+    border: none;
+    color: #ffffff;
+    font-size: 25px;
+    /*margin: 3% 0px;*/
+    margin-left: 20%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border-bottom: solid #ffffff 1px;
+  }
+
+  .login-box input[type=submit] {
+    width: 25%;
+    padding: 1.4% 8%;
+    background-color: #7d1f27;
+    border: none;
+    color: #ffffff;
+    font-family: Arcade;
+    font-size: 25px;
+    margin: 10% 10px 11px 32%;
+  }
+
+  .login-fail {
+    text-align: center;
+    width: 50%;
+    padding: 1.4% 8%;
+    background-color: #7d1f27a6;
+    border: none;
+    color: #ffffff;
+    font-family: Arcade;
+    font-size: 25px;
+    margin: 10px 10px 11px 11%;
+  }
+
+  .login-box-form {
+    text-align: left;
+    padding: 8% 0px 0px 14%;
+  }
+
+  @media screen and (max-width: 650px) { /* FÄRDIG */
+    .accesses-granted{
+      font-size: 28px;
+      margin-left: 16px;
+    }
+    .login-box {
+      margin-top: 30px;
+      margin-left: -27px;
+    }
+    .login-box-form {
+      text-align: left;
+      padding-top: 6%;
+      margin-top: 0px;
+      margin-left: 7px;
+    }
+    .login-box h1 {
+      font-size: 0px;
+    }
+    .login-box label {
+      font-size: 28px;
+      margin-left: 100px;
+    }
+    .login-box input[type=submit] {
+      font-size: 23px;
+      width: 25%;
+      /*margin-top: 49px;*/
+      margin: 34px 15px 10px 31.5%;
+    }
+    .login-box input[type=text], .login-box input[type=password]{
+      margin: 1.5% 0;
+      margin-left: 75px;
+      font-size: 20;
+    }
+    .login-fail {
+      margin: 17px 10px 10px 55px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .login-box-form {
+      margin-top: -10px;
+      margin-left: 0px;
+    }
+    .login-box input[type=submit] {
+      margin: 5% 10px 11px 32%;
+    }
+    .login-fail {
+      margin: 8px 10px 11px 12%;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    .accesses-granted{
+      margin-top: 100px;
+    }
+    .login-box-form {
+      margin-top: -10px;
+      margin-left: 20px;
+    }
+    .login-box input[type=submit] {
+      margin: 6.5% 10px 11px 30%;
+    }
+    .login-box input[type=text], .login-box input[type=password]{
+      font-size: 18px;
+    }
+    .login-fail {
+      margin: 8px 10px 11px 10%;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .login-box {
+      margin-top: 30px;
+      margin-left: -27px;
+    }
+    .login-box-form {
+      text-align: left;
+      padding-top: 0%;
+      margin-top: 80px;
+      margin-left: 7px;
+    }
+    .login-box label {
+      text-align: left;
+      font-size: 28px;
+      margin-left: 20%;
+      margin-top: 50px;
+    }
+    .login-box input[type=submit] {
+      text-align: center;
+      font-size: 20px;
+      margin: 30px 10px 11px 31%;
+    }
+    .login-box input[type=text], .login-box input[type=password]{
+      /*margin: 2% 0;*/
+      margin-left: 20%;
+      text-align: left;
+      font-size: 15px;
+      margin-top: 0px;
+    }
+    .login-fail {
+      text-align: center;
+      font-size: 20px;
+      margin: 9px 10px 11px 11%;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .accesses-granted{
+      margin-top: 85px;
+    }
+    .login-box-form {
+      margin-top: 65px;
+      margin-left: 0px;
+    }
+    .login-box input[type=submit] {
+      margin: 5% 10px 11px 32%;
+    }
+    .login-fail {
+      margin: 8px 10px 11px 12%;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .accesses-granted{
+      font-size: 20px;
+      margin-top: 75px;
+      margin-left: 30px;
+    }
+    .login-box-form {
+      margin-top: 50px;
+      margin-left: 5px;
+    }
+    .login-box label {
+      font-size: 20px;
+    }
+    .login-box input[type=text], .login-box input[type=password]{
+      font-size: 13px;
+    }
+    .login-box input[type=submit] {
+      margin: 9% 10px 11px 32%;
+      font-size: 16px;
+    }
+  }
+
+  @media screen and (max-width: 380px) {
+    .accesses-granted{
+      margin-top: 70px;
+    }
+    .login-box-form {
+      margin-top: -5px;
+      margin-left: 5px;
+    }
+    .login-box label {
+      font-size: 20px;
+    }
+    .login-box input[type=submit] {
+      margin: 8% 10px 11px 32%;
+      font-size: 16px;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    .login-box-form {
+      margin-top: -6px;
+    }
+    .login-box label {
+      text-align: left;
+      font-size: 15px;
+      margin-left: 20%;
+      margin-top: 50px;
+    }
+    .login-box input[type=submit] {
+      text-align: center;
+      font-size: 16px;
+      margin: 10% 10px 11px 32%;
+    }
+    .login-box input[type=text], .login-box input[type=password]{
+      /*margin: 2% 0;*/
+      margin-left: 20%;
+      text-align: left;
+      font-size: 13px;
+      margin-top: 0px;
+    }
+    .login-fail {
+      text-align: center;
+      font-size: 16px;
+      margin: 5px 10px 11px 11%;
+    }
+  }
+
+  @media screen and (max-width: 340px) {
+    .accesses-granted{
+      margin-top: 60px;
+    }
+    .login-box-form {
+      margin-top: -9px;
+      margin-left: -9px;
+    }
+    .login-box input[type=submit] {
+      margin: 7% 10px 11px 33%;
+    }
+    .login-fail {
+      margin: 8px 10px 11px 12%;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .login-box-form {
+      margin-top: -13px;
+      margin-left: -12px;
+    }
+    .login-box input[type=submit] {
+      margin: 5.5% 10px 11px 34.5%;
+    }
+    .login-fail {
+      margin: 5px 10px 11px 13%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+      /*
+  @media screen and (max-width: 375px) and (min-height: 811px){
+    .login-box {
+      margin-top: 40%;
+    }
+    .login-fail {
+      margin: 20px 10px 10px 15px;
+    }
+    }
+
+    */

@@ -1,0 +1,80 @@
+
+.profiles-contaner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.group-divider {
+    color: white;
+    background-color: #0000006c;
+    border-radius: 7px;
+    filter: drop-shadow(0px 6px 3px #0000003f);
+}
+
+.person-content {
+    background: #0000007e;
+    border-radius: 10px;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+}
+
+/* (49, 100, 124, 0.376); */
+.group-RSA {
+    color: white;
+    background: url('https://media1.giphy.com/media/Y5wlazC8lSVuU/giphy.gif');
+    background-size: contain;
+    border-color: black;
+    font-family: Stardos Stencil;
+    src: url(StardosStencil-Bold.ttf);
+}
+
+.profiles-button {
+    background-color: Transparent;
+    border: none;
+    cursor:pointer;
+    transition: 0.15s transform;
+   
+}
+
+
+.profiles-button:hover {
+    transform: scale(1.15)
+}
+
+@media(min-width: 1130px){
+    .profiles-contaner {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .group-divider {
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+}
+
+@media(max-width: 1130px){
+    .profiles-contaner {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .group-divider {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+}
+
+@media(max-width: 780px){
+    .profiles-contaner {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .group-divider {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+
+.profiles-page {
+    padding: 50px 30px;
+  }

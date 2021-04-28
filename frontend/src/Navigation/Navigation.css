@@ -1,0 +1,513 @@
+/*@media(min-width: 781px){*/
+    .navigationBar {
+        position: fixed;
+        margin-top: 0px;
+        width: 100%;
+        height: 65px;
+        background-color: #27292d;
+        /*overflow-y: scroll;*/
+        /*border-left: #000 2px solid;
+        /*border-right: #000 2px solid;*/
+        z-index: 10;
+    }
+
+    .navButton {
+        visibility: hidden;
+    }
+
+    .navigationDropdown {
+        visibility: hidden;
+    }
+
+    .navigation {
+        /*font-family: wt;*/
+        /*position: fixed;*/
+        left: 0px;
+        top: 0px;
+        max-width: 100%;
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+        z-index: 5;
+    }
+
+    .navigation-open {
+        padding-bottom: 0px;
+        height: 100%;
+    }
+
+    #horizontalButtons {
+        visibility: visible;
+    }
+
+
+    #Idag {
+        background-image: url("./idag.png");
+        background-position: top;
+    }
+
+    #Idag:hover {
+        background-image: url("./idagSelected.png");
+        background-position: top;
+    }
+
+    #Idag:focus {
+            background-image: url("./idagSelected.png");
+            background-position: top;
+            border: hidden;
+    }
+
+
+    #Nyheter {
+        background-image: url("./nyheter.png");
+        background-position: top;
+    }
+
+    #Nyheter:hover {
+        background-image: url("./nyheterSelected.png");
+        background-position: top;
+    }
+
+    #Nyheter:focus {
+            background-image: url("./nyheterSelected.png");
+            background-position: top;
+            border: hidden;
+    }
+
+
+    #Schema {
+        background-image: url("./schema.png");
+        background-position: top;
+    }
+
+    #Schema:hover {
+        background-image: url("./schemaSelected.png");
+        background-position: top;
+    }
+
+    #Schema:focus {
+            background-image: url("./schemaSelected.png");
+            background-position: top;
+            border: hidden;
+    }
+
+
+    #Personer {
+        background-image: url("./profiler.png");
+        background-position: top;
+    }
+
+    #Personer:hover {
+        background-image: url("./profilerSelected.png");
+        background-position: top;
+    }
+
+    #Personer:focus {
+            background-image: url("./profilerSelected.png");
+            background-position: top;
+            border: hidden;
+    }
+
+
+    #Galleri {
+        background-image: url("./galleri.png");
+        background-position: top;
+    }
+
+    #Galleri:hover {
+        background-image: url("./galleriSelected.png");
+        background-position: top;
+    }
+
+    #Galleri:focus {
+            background-image: url("./galleriSelected.png");
+            background-position: top;
+            border: hidden;
+    }
+
+
+    #Bländaren {
+        background-image: url("./blandaren.png");
+        background-position: top;
+    }
+
+    #Bländaren:hover {
+        background-image: url("./blandarenSelected.png");
+        background-position: top;
+    }
+
+    #Bländaren:focus {
+            background-image: url("./blandarenSelected.png");
+            background-position: top;
+            border: hidden;
+    }
+
+
+    #Admin {
+        background-image: url("./admin.png");
+        background-position: top;
+    }
+
+    #Admin:hover {
+        background-image: url("./adminSelected.png");
+        background-position: top;
+    }
+
+    #Admin:focus {
+            background-image: url("./adminSelected.png");
+            background-position: top;
+            border: hidden;
+    }
+
+
+    #LoggaUt {
+        background-image: url("./loggaUt.png");
+        background-position: top;
+    }
+
+    #LoggaUt:hover {
+        background-image: url("./loggaUtSelected.png");
+        background-position: top;
+    }
+
+    #LoggaUt:focus {
+            background-image: url("./loggaUtSelected.png");
+            background-position: top;
+            border: hidden;
+    }
+
+    .linkOpen {
+        /*background-image: url("./boxOpen.png");*/
+        color: #97752b;
+        border: hidden;
+        outline: none;
+    }
+
+    .linkClosed {
+        /*background-image: url("./box.png"); */
+        border: hidden;
+    }
+
+    .link:hover {
+        /*background-image: url("./boxOpen.png");*/
+        color: #ff853b;
+        border: hidden;
+        outline: none;
+    }
+
+    .link:focus {
+        color: #ff853b;
+        border: hidden;
+        outline: none;
+    }
+
+    .link:active {
+        color: #ff853b;
+        border: hidden;
+        outline: hidden;
+    }
+
+    .link-text {
+        padding-top: 33px;
+        text-align: center;
+    }
+
+    .link {
+        float: left;
+        margin: 10px 5px 0px 0px;
+        width: 60px;
+        height: 45px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 35px;
+        background-color: transparent;
+        text-decoration: none;
+        border: hidden;
+        font-size: 11px;
+        text-align: center bottom;
+        text-decoration: none;
+        color: #ffb049;
+    }
+
+
+    .navigation-profil {
+        float: left;
+        /*background: #fff;
+        /*background-image: url("https://t3.ftcdn.net/jpg/02/54/39/96/240_F_254399631_pUTcCHnvHx6ggIDNk6yCsLHRu4Ckm0ZR.jpg");
+        background-size: cover;*/
+        /*margin: 15px;
+        /*padding: 2% 0;*/
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        border: #333 2px solid;
+        border-radius: 10%;
+        /*border-radius: 20px;
+        /*display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 20% 80%;*/
+        box-shadow: 0px 0px 5px black;
+    }
+
+    .navigation-profil:hover {
+        border: 2px solid white;
+        border-radius: 10%;
+        cursor: pointer;
+    }
+/*}*/
+
+@media(max-width: 780px){
+
+    #horizontalButtons {
+        visibility: hidden;
+        }
+
+    .navigationBar {
+        height: 55px;
+    }
+
+    .navButton {
+        visibility: visible;
+        float: left;
+        position: fixed;
+        margin-top: 0px;
+        height: 54px;
+        width: 54px;
+        margin: none;
+        padding: none;
+        background-color: #27292d;
+        color: #fff;
+        border: none;
+        outline: none;
+        border-radius: 0px 0px 0px 0px;
+        offset: none;
+        font-size: 30px;
+        z-index: 11;
+    }
+
+    .navbutton:focus {
+        border: hidden;
+        outline: none;
+    }
+
+    .navbutton:active {
+        border: hidden;
+        outline: none;
+    }
+
+    .navigationDropdown {
+        visibility: visible;
+        position: fixed;
+        margin-top: 0px;
+        height: 100%;
+        width: 150px;
+        background-color: #27292d;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        z-index: 9;
+    }
+
+    .navigationDropdown::-webkit-scrollbar {
+        color: transparent;
+        background-color: transparent;
+        width: 0%;
+    }
+
+    .navigation {
+        /*font-family: wt;*/
+        /*position: fixed;*/
+        left: 0px;
+        top: 0px;
+        max-width: 100%;
+        max-height: 100%;
+        display: flex;
+        flex-direction: row;
+        z-index: 5;
+    }
+
+    .navigation-open {
+        padding-bottom: 40px;
+    }
+
+    #Idag {
+        margin-top: 80px;
+        background-position: left;
+    }
+
+    #Idag:hover {
+        margin-top: 80px;
+        background-position: left;
+    }
+
+    #Idag:focus {
+            margin-top: 80px;
+            background-position: left;
+    }
+
+
+    #Nyheter {
+        background-position: left;
+    }
+
+    #Nyheter:hover {
+        background-position: left;
+    }
+
+    #Nyheter:focus {
+            background-position: left;
+    }
+
+
+    #Schema {
+        background-position: left;
+    }
+
+    #Schema:hover {
+        background-position: left;
+    }
+
+    #Schema:focus {
+            background-position: left;
+    }
+
+
+    #Personer {
+        background-position: left;
+    }
+
+    #Personer:hover {
+        background-position: left;
+    }
+
+    #Personer:focus {
+            background-position: left;
+    }
+
+
+    #Galleri {
+        background-position: left;
+    }
+
+    #Galleri:hover {
+        background-position: left;
+    }
+
+    #Galleri:focus {
+            background-position: left;
+    }
+
+
+    #Bländaren {
+        background-position: left;
+    }
+
+    #Bländaren:hover {
+        background-position: left;
+    }
+
+    #Bländaren:focus {
+            background-position: left;
+    }
+
+
+    #Admin {
+        background-position: left;
+    }
+
+    #Admin:hover {
+        background-position: left;
+    }
+
+    #Admin:focus {
+            background-position: left;
+    }
+
+
+    #LoggaUt {
+        background-position: left center;
+    }
+
+    #LoggaUt:hover {
+        background-position: left center;
+    }
+
+    #LoggaUt:focus {
+            background-position: left;
+    }
+
+    .link-text {
+        padding-top: 0px;
+        margin-left: 30%;
+        text-align: left;
+        font-size: 140%;
+    }
+
+    .link {
+        margin: 8px 8px;
+        margin-left: 10%;
+        padding-right: 10px;
+        width: 100%;
+        height: 30px;
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: transparent;
+        text-decoration: none;
+        border: hidden;
+        outline: none;
+        text-align: none;
+        text-align: left;
+        text-decoration: none;
+        color: #ffb049;
+    }
+
+
+    .navigation-profil {
+        cursor: pointer;
+        float: right;
+        /*background: #fff;
+        /*background-image: url("https://t3.ftcdn.net/jpg/02/54/39/96/240_F_254399631_pUTcCHnvHx6ggIDNk6yCsLHRu4Ckm0ZR.jpg");
+        background-size: cover;*/
+        /*margin: 15px;
+        /*padding: 2% 0;*/
+        width: 43px;
+        height: 43px;
+        margin: 5px;
+        border: #333 1px solid;
+        border-radius: 10%;
+        /*border-radius: 20px;
+        /*display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 20% 80%;*/
+        box-shadow: 0px 0px 5px black;
+    }
+
+    .navigation-profil:hover {
+        border: 2px solid white;
+        border-radius: 10%;
+    }
+  }
+
+/*.navigation-profil h6,p {
+    text-align: left;
+}
+
+.navigation-profil h6 {
+    border-bottom: #000 1px solid;
+}*/
+
+/*.navigation-profil img {
+    float: left;
+    width: 80%;
+    border: #333 1px solid;
+    border-radius: 10%;
+}*/
+
+/*.agent-title {
+    grid-column-end: 3;
+    grid-column-start: 1;
+}*/
+
+/*.navigation-profil-text {
+    padding: 10%;
+}*/
