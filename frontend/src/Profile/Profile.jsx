@@ -372,7 +372,7 @@ class Profile extends Component {
           <div className='profile-text-space'>
             {profile.q1 || this.state.edit ? (
               <React.Fragment>
-                <h4>Vilket är ditt favoritfilmcitat?</h4>
+                <h4>Vilken är din favoritartist eller favoritband?</h4>
                 {!this.state.edit ? (
                   <p>{profile.q1}</p>
                 ) : (
@@ -387,7 +387,7 @@ class Profile extends Component {
             ) : null}
             {profile.q2 || this.state.edit ? (
               <React.Fragment>
-                <h4>Vilken är din favoritfilmscen?</h4>
+                <h4>Vilket är ditt bästa konsertminne?</h4>
                 {!this.state.edit ? (
                   <p>{profile.q2}</p>
                 ) : (
@@ -402,7 +402,7 @@ class Profile extends Component {
             ) : null}
             {profile.q3 || this.state.edit ? (
               <React.Fragment>
-                <h4>Vad hade du haft på dig på röda mattan?</h4>
+                <h4>Om ditt liv var en anime, vad hade varit ditt opening theme song?</h4>
                 {!this.state.edit ? (
                   <p>{profile.q3}</p>
                 ) : (
