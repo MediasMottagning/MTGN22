@@ -17,39 +17,39 @@ class Profiles extends Component {
       profiles.sort((a, b) => this.sortN0llan(a,b))
 
       var phosarGroup = "ÖPH"
-      var electus = "Olli";
+      var electus = "Emz";
       profiles.sort((x, y) => this.electusFirst(x,y,electus, phosarGroup))
-      var electus = "Amalia";
+      var electus = "Nilsson JärnvägsGrillson";
       profiles.sort((x, y) => this.electusFirst(x,y,electus, phosarGroup))
-      var electus = "Kraft";
+      var electus = "Gustav";
       profiles.sort((x, y) => this.electusFirst(x,y,electus, phosarGroup))
 
       var phosarGroup = "KPH"
-      var electus = "Gustav";
+      var electus = "Brosef";
       profiles.sort((x, y) => this.electusFirst(x,y,electus, phosarGroup))
-      var electus = "Lotta";
+      var electus = "Poppe";
       profiles.sort((x, y) => this.electusFirst(x,y,electus, phosarGroup))
 
       var phosarGroup = "INPHO"
-      var electus = "Jessie";
+      var electus = "JW";
       profiles.sort((x, y) => this.electusFirst(x,y,electus, phosarGroup))
-      var electus = "Fanny";
+      var electus = "Tuan";
       profiles.sort((x, y) => this.electusFirst(x,y,electus, phosarGroup))
 
       var phosarGroup = "ARR"
-      var electus = "Manda";
+      var electus = "Vildmark";
       profiles.sort((x, y) => this.electusFirst(x,y,electus, phosarGroup))
-      var electus = "Nilsson Järnvägsgrillson";
+      var electus = "Kuo";
       profiles.sort((x, y) => this.electusFirst(x,y,electus, phosarGroup))
 
       var phosarGroup = "VRAQUE"
-      var electus = "Hilda";
+      var electus = "Joppe";
       profiles.sort((x, y) => this.electusFirst(x,y,electus, phosarGroup))
-      var electus = "Moa";
+      var electus = "Hank";
       profiles.sort((x, y) => this.electusFirst(x,y,electus, phosarGroup))
 
       var phosarGroup = "RSA"
-      var electus = "Mallory";
+      var electus = "Trent";
       profiles.sort((x, y) => this.electusFirst(x,y,electus, phosarGroup))
 
 
