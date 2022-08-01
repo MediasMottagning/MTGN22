@@ -9,7 +9,6 @@ import "lightbox-react/style.css";
 import TheNews from "../News/TheNews";
 import './../Media/Media.css';
 import theLick from '../assets/the_lick.png'
-import moln from "../assets/moln.png"
 import airplane from '../assets/aiplane.png'
 import letter from './letter.gif'
 
