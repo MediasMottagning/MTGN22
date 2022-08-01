@@ -8,8 +8,7 @@ import Lightbox from "lightbox-react";
 import "lightbox-react/style.css";
 import TheNews from "../News/TheNews";
 import './../Media/Media.css';
-import ET from '../assets/ET_no_bg.png'
-import moln from "../assets/moln.png"
+import theLick from '../assets/the_lick.png'
 import airplane from '../assets/aiplane.png'
 import letter from './letter.gif'
 
@@ -113,7 +112,7 @@ class Home extends Component {
 
     return (
       <div className="home-page">
-        <a className="up_house" href="https://forms.gle/kprFcahWmtQYpFei7" target="_blank"><img width="80px" alt="Click me" src={ET} /></a>
+        <a className="up_house" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img width="150px" alt="Click me" src={theLick} /></a>
         <a className="airplane" href="https://www.instagram.com/inphogram/?hl=sv" target="_blank"><img width="150px" alt="Click me" src={airplane} /></a>
 
         {(this.state.loading ? <Loader loading={true} /> :
