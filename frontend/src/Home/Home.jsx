@@ -16,7 +16,7 @@ class Home extends Component {
   //Check if the user is admin, if --> they can upload and delete??? should this be here?
   state = { newNews: [], newImg: [], loading: true, bubbolJump: true, filmprojektet: [], photoIndex: 0, showLightBox: false, filmIframe: [] };
 
-  filmprojekt_namn = "RGB/SW";
+  filmprojekt_namn = "Filmprojektet";
 
   componentDidMount() {
     window.scrollTo(0, 0)
