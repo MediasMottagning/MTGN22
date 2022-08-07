@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "build/MTGN22",
+    "public": "dist/MTGN22",
     "ignore": [
       "firebase.json",
       "**/.*",
