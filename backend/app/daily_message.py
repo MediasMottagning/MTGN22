@@ -8,56 +8,48 @@ def get_daily_messange_json():
 
     message = ""
 
-    if month == 8 and day == 13:
-        message = "Välkommen till Medieteknik och KTH, nØllan! Efter uppropet idag kommer VRAQUE visa er runt på campus och vi kommer även bjuda på lunch senare! På eftermiddagen är det en kontrollskrivning i matte, men oroa er inte, den är bara för att KTH vill ha statistik, det är inget allvarligt!"
-    elif month == 8 and day == 14:
-        message = "Ikväll är det dags för Välkomstgasquen, er första gasque med oss! Kom ihåg att gå på Gasquevettet kl 13 där VRAQUE kommer lära er hur man gasquear!"
-    elif month == 8 and day == 15:
-        message = "Idag har företaget Cygni en lunchföreläsning där de bjuder på lunch, så lämna matlådan hemma! Senare är det är det dags för en av Medias äldsta traditioner, Ö&B!"
+    if month == 8 and day == 15:
+        message = "Välkommen till Medieteknik och KTH, nØllan! Efter uppropet idag kommer VRAQUE visa er runt på campus och på eftermiddagen har vi en kort lära känna-PUB så att ni ska få lära känna varandra :)."
     elif month == 8 and day == 16:
-        message = "På eftermiddagen idag kommer ni få lite viktig information om sektionen och utbildningen. På kvällen är det Phångarna på Phortet, det kommer bli kul!"
+        message = "Ikväll är det dags för Välkomstgasquen, er första gasque med oss! Kom ihåg att gå på Gasquevettet kl 13 där VRAQUE kommer lära er hur man gasquear! På morgonen har KTH ett diagnostiskt prov, men oroa er inte! Det är bara för att KTH vill samla statistik."
     elif month == 8 and day == 17:
-        message = "Kl 9 idag kommer ni få träffa och lära känna vårt klubbmästeri, MKM! Idag kan ni också lämna matlådan hemma då Sveriges Ingenjörer bjuder på lunchföreläsning. På eftermiddagen tar vi det lungt med lite Phika på philt!"
+        message = "Idag börjar vi med intromatte, därefter har vi lunchföreläsning med Sveriges Ingenjörer. Efter lunch är det en kort föreläsning om att hitta balans i studielivet. Sedan har vi vårt Ö&B-event där ni får testa Öl och Bulle: en av Medias mest heliga traditioner. Efteråt är ni välkomna på tillhörande pub!"
     elif month == 8 and day == 18:
-        message = "Idag är det dags för Neverland-gasquen! Vi träffas i META kl 15!"
+        message = "Hej nØllan! Förbered er på en phet torsdag! På morgonen är det intromatte, och efter lunch får ni information av EECS, vår institution, och från THS: KTHs studentkår. På eftermiddagen och kvällen är det Phångarna på Phortet - en riktigt skojsig tävling!"
+    elif month == 8 and day == 19:
+        message = "Idag börjar vi med Bootcamp med MKM. Under lunchen hålls ett event av Malvina, en förening för tjejer och icke-binära på KTH. Efteråt är det Phemkamp på Philt med StuddyBuddy! Tagga!"
     elif month == 8 and day == 20:
-        message = "Idag är det Sektionens dag! Under dagen kommer ni få chansen att se allt det roliga och viktiga som sektionen gör förutom mottagningen! Ni kommer också få skriva en tenta i nØllekunskap och dagen avslutas med Medieklassikern."
-    elif month == 8 and day == 21:
-        message = "Under dagen kommer ni få fokusera på att plugga intromatte. Ifall något känns oklart, ta chansen att fråga på pluggstugan!"
+        message = "Hej nØllan! Välkomna till Neverland-gasquen ikväll! Innan gasquen börjar kl 18 kör vi vårt traditionella tårtbak klockan 15."
     elif month == 8 and day == 22:
-        message = "På förmiddagen kommer ni få se vad kåren gör! Studentkåren är för alla studenter på KTH, till skillnad från sektionen som bara är för medianer. På eftermiddagen är det BBR! Oömma kläder rekommenderas!"
+        message = "Välkomna till vecka 2 av mottagningen och vi rivstartar veckan med sektionens dag! Dagen börjar kl 9 med intromatte, och under lunchen hålls en presentation om sektionens nämnder. Efteråt får ni pröva på hur det är att skriva en tenta på KTH. Slutligen har sektionens dag en mässa med alla sektionens nämnder!"
     elif month == 8 and day == 23:
-        message = "Idag har ARR ett event för er! Det vill ni inte missa. På kvällen kommer METAspexet hålla ett spex för er! Men vad är ens ett spex? Gå på nØllespexet för att få veta!"
+        message = "Idag är det en lite lugnare dag. På morgonen är det intromatte. Efter lunch är det pluggstuga där ni kan få plugga inför tentan på fredag!"
     elif month == 8 and day == 24:
-        message = "På morgonen är det dags för tenta i intromatte! Senare kommer INPHO hålla ett event för er och efter det är det dags att åka iväg till Stugan! Lycka till på tentan!"
+        message = "Idag är det kårens dag med bland annat ett event med Studienämnden vid lunch. Mellan 13-15 är det även dags för BBR, alltså BrännBollsRace - mycket med skoj utlovas!"
+    elif month == 8 and day == 25:
+        message = "Dagen börjar med intromatte. Vid lunch är det lunchföreläsning med KTH Sustainability. På eftermiddagen ska vi få lära känna ARR lite bättre på deras alldeles egna bästisevent <3. På kvällen håller rektorn tal!"
     elif month == 8 and day == 26:
-        message = "Idag kommer ni få träffa vårt kära Data! Tillsammans kommer vi ha en picknick med dem i Rålambhovsparken!"
-    elif month == 8 and day == 27:
-        message = "Idag börjar skolan på riktigt! För att gå igång både kropp och knopp kör vi lite morgongympa innan er första envarreföreläsning!"
-    elif month == 8 and day == 28:
-        message = "Under dagen fortsätter envarren! Ni kommer också ha er första föreläsning i Intro till medieteknik! Efter skolan är det nØllepubrundan, så då kommer ni få chansen att se alla andra sektioner och deras pubar."
+        message = "Dagen D! Lycka till på intromattetentan!!! Efter lunch är det bästisevent med INPHO!!!! Sedan åker vi iväg tillsammans på hyrd buss till Stugan för en gasque ute i skogen!"
     elif month == 8 and day == 29:
-        message = "Idag är det seminarium i Intro till medieteknik. Det blir också en föreläsning lite senare. På kvällen är det kårspex, som är THS spex!"
+        message = "Idag börjar era kurser på riktigt! Efter föreläsningarna under dagen så är det Medieklassikern där ni kommer få spela brädspel och tv-spel med varandra. På kvällen är det även quiznight!"
     elif month == 8 and day == 30:
-        message = "Efter envarren idag kommer ni få gå på ert första sektionsmöte, SM#Ø! Kom och bestäm om sektionens framtid och kanske kandidera till en post? Efter det kommer MKM hålla läsårets första pub i META!"
+        message = "Ikväll har Medias branschdag och Näringslivsgruppen event!"
     elif month == 8 and day == 31:
-        message = "Idag är det Amazing Race tillsammans med Data! Tagga!"
+        message = "Ikväll är det nØllepubrunda, vilket innebär att ni kommer kunna besöka alla sektionslokaler på Campus och samla märken!"
+    elif month == 9 and day == 1:
+        message = "Ikväll är det event med Urspårarna/Idrottsnämnden och sedan öppnar äntligen ridån för MetaSpexet!"
     elif month == 9 and day == 2:
-        message = "Idag äter vi brunch tillsammans i META! Men precis som alla våra sittningar kommer det vara en hel del gyckel och sånger till maten!"
-    elif month == 9 and day == 3:
-        message = "Glöm matlådan hemma, för idag är det lunchföreläsning med MRG Gametek!"
+        message = "Ikväll är det Amazing Rejs som vi har tillsammans med älskade Data! Väldigt trevligt."
     elif month == 9 and day == 4:
-        message = "Ikväll är det dags för VRAQUE att hålla i sin egna gasque, Bossegasquen! Det kommer bli kul!"
+        message = "Välkomna på brunschsittning mellan 11-15!"
     elif month == 9 and day == 6:
-        message = "Ikväll tar vi det lugnt och tittar på film i META!"
+        message = "Välkomna på Basecamp från kl 15 innan vi går tillsammans på Bossegasquen som VRAQUE ordnar!"
     elif month == 9 and day == 7:
-        message = "nØllan vill inte missa nØg."
+        message = "Under lunchen finner ni StudyBuddy i META, be there :))!"
     elif month == 9 and day == 8:
-        message = "nØllan vill inte missa nØg."
-    elif month >= 9 and day >= 9:
-        message = "Mottagningen tar aldrig slut."
-    elif month <= 8 and day <= 13:
-        message = "Hej Phöseriet! Här kommer det stå en kort presentation av dagen som uppdateras varje dag! Det kommer även finnas ett schema för dagen precis här under."
+        message = "Ikväll är det er första pub som anordnas av MKM vid 17!"
+    elif month == 9 and day == 10:
+        message = "ÄNTLIGEN ÄR DET NØØØØØØØØØØØØØØØØG!!!!!! Vi möts vid campus vid 14!"
     else:
         message = "Idag är det inga mottagningsaktiviteter planerade! Passa på att ta det lungt!"
 
