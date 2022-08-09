@@ -213,6 +213,7 @@
 .name_img{
   position: absolute;
   left: 50%;
+  width: 400px;
   transform: translate(-50%, -50%);
 }
 
@@ -400,7 +401,7 @@
 
   .name_img {
     top: 80%;
-    width: 120px;
+    width: 200px;
     height: auto;
   }
 
@@ -471,7 +472,7 @@
 
     .name_img {
       top: 80%;
-      width: 70px;
+      width: 200px;
       height: auto;
     }
 
@@ -496,7 +497,7 @@
 
     .name_img {
       top: 80%;
-      width: 50px;
+      width: 100px;
       height: auto;
     }
   }

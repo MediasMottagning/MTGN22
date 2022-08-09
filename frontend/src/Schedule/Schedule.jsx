@@ -27,16 +27,16 @@ class Schedule extends Component {
     /* <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FStockholm&amp;src=bWVkaWV0ZWtuaWsuY29tX3FibjVlNmhmczN0bzMwZ2ltMzBrNnFlNG9jQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%237986CB" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe> */
     var calendar = "";
     if (this.state.mode === "DAY") {
-      calendar = <iframe  title="DAY" src="https://calendar.google.com/calendar/u/0?cid=ODByZ3FmbG8ybmcwazVlYjBxMnNydTlpMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;ctz=Europe%2FStockholm&amp;src=medieteknik.com_qbn5e6hfs3to30gim30k6qe4oc%40group.calendar.google.com&amp;color=%0000ff&amp;showDate=0&amp;showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=DAY" width="100%" height="600" frameBorder="0" scrolling="yes"></iframe>
+      calendar = <iframe  title="DAY" src="https://calendar.google.com/calendar/embed?src=80rgqflo2ng0k5eb0q2sru9i2c%40group.calendar.google.com&amp;ctz=Europe%2FStockholm&amp;src=medieteknik.com_qbn5e6hfs3to30gim30k6qe4oc%40group.calendar.google.com&amp;color=%0000ff&amp;showDate=0&amp;showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=DAY" width="100%" height="600" frameBorder="0" scrolling="yes"></iframe>
     }
     if (this.state.mode === "WEEK") {
-      calendar = <iframe title="WEEK" src="https://calendar.google.com/calendar/u/0?cid=ODByZ3FmbG8ybmcwazVlYjBxMnNydTlpMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;ctz=Europe%2FStockholm&amp;color=%0000ff&amp;showDate=0&amp;showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK" width="100%" height="600" frameBorder="0" scrolling="yes"></iframe>
+      calendar = <iframe title="WEEK" src="https://calendar.google.com/calendar/embed?src=80rgqflo2ng0k5eb0q2sru9i2c%40group.calendar.google.com&amp;ctz=Europe%2FStockholm&amp;color=%0000ff&amp;showDate=0&amp;showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK" width="100%" height="600" frameBorder="0" scrolling="yes"></iframe>
     }
     /*if (this.state.mode === "WEEK") {
       calendar = <iframe title="WEEK" src="https://calendar.google.com/calendar/embed?src=c_018tfse3dkgpkus2odji1djtec%40group.calendar.google.com&ctz=Europe%2FStockholm&amp;src=medieteknik.com_qbn5e6hfs3to30gim30k6qe4oc%40group.calendar.google.com&amp;color=%237CB342&amp;showDate=0&amp;showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK" width="100%" height="600" frameBorder="0" scrolling="yes"></iframe>
     } */
     if (this.state.mode === "AGENDA") {
-      calendar = <iframe title="AGENDA"  src="https://calendar.google.com/calendar/u/0?cid=ODByZ3FmbG8ybmcwazVlYjBxMnNydTlpMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;ctz=Europe%2FStockholm&amp;src=medieteknik.com_qbn5e6hfs3to30gim30k6qe4oc%40group.calendar.google.com&amp;color=%0000ff&amp;showDate=0&amp;showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA" width="100%" height="600" frameBorder="0" scrolling="yes"></iframe>
+      calendar = <iframe title="AGENDA"  src="https://calendar.google.com/calendar/embed?src=80rgqflo2ng0k5eb0q2sru9i2c%40group.calendar.google.com&amp;ctz=Europe%2FStockholm&amp;src=medieteknik.com_qbn5e6hfs3to30gim30k6qe4oc%40group.calendar.google.com&amp;color=%0000ff&amp;showDate=0&amp;showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA" width="100%" height="600" frameBorder="0" scrolling="yes"></iframe>
     }
     return (
       <div className="page">
