@@ -9,16 +9,14 @@ import RSAPopup from "./RSAPopup";
 
 //import skyMindre from "/assets/images/sky-mindre.png"
 import rsa_eagle_vit from '../assets/profiles/rsa_eagle_vit.png'
-import snaran from '../assets/easter-eggs/Snaran.png'
 import jw from '../assets/easter-eggs/JW.png'
-import darth from '../assets/easter-eggs/Darth.png'
-import soff from '../assets/easter-eggs/soff.png'
 import tuan from '../assets/easter-eggs/Tuan.png'
 import jackie from '../assets/easter-eggs/jackie.png'
-import lou from '../assets/easter-eggs/Lou.png'
+import billy from '../assets/easter-eggs/billy.jpg'
+import galileo from '../assets/easter-eggs/Galilèo.png'
+import milda from '../assets/easter-eggs/milda.png'
 import star from '../assets/profiles/star4.png'
 import questionMark from '../assets/profiles/question.png'
-import fannyNamn from '../assets/easter-eggs/fanny.gif'
 import omnijin from '../assets/easter-eggs/omniman.gif'
 import jackiechan from '../assets/easter-eggs/jackiechan.jpeg'
 import nilsson from '../assets/easter-eggs/nilsson.jpg'
@@ -608,14 +606,9 @@ class Profile extends Component {
                   {/* if/else sats för RSA-profilerna */}
                   <div className={(profile.type.name === "RSA" ? 'profile-top-img rsa-text-divider' : 'profile-top-img')}>
                   <div className="container">
-                  {/*(profile.username === "sacho") ? <a href={`https://www.youtube.com/watch?v=rTfa-9aCTYg`} ><img alt="" id={profile.id} width="100%" src={profile.profile_picture} className="prof_img" /></a> :
-                      (profile.username === "namn2goeshere") ? <a href="https://www.youtube.com/watch?v=zDUQTEsawhI" ><img alt="" id={profile.id} width="100%" src={profile.profile_picture} className="prof_img" /></a> :
-                      (profile.username === "jessie") ? <a href={`/profiler/`} ><img alt="" id={profile.id} width="100%" src={shrekJessie} className="prof_img" /></a>:*/
-                      (profile.username === "nilsson järnvägsgrillson") ? <img alt="" id={profile.id} width="100%" src={nilsson} className="prof_img"/>:
+                  {
+                      (profile.username === "placeholder") ? <img alt="" id={profile.id} width="100%" src={nilsson} className="prof_img"/>:
                       (profile.username === "jin") ? <img alt="" id={profile.id} width="100%" src={omnijin} className="prof_img" />:
-                      (profile.username === "jackie") ? <img alt="" id={profile.id} width="100%" src={jackiechan} className="prof_img"/>:
-                      (profile.username === "max jr.") ? <a href="https://www.youtube.com/watch?v=YUhMRnEABfc" ><img alt="" id={profile.id} width="100%" src={profile.profile_picture} className="prof_img" /></a> :
-                      (profile.username === "soff") ? <a href="https://www.youtube.com/watch?v=l0Nc0-dFwAI" ><img alt="" id={profile.id} width="100%" src={profile.profile_picture} className="prof_img" /></a> :
                         <img alt="" id={profile.id} width="100%" src={profile.profile_picture} className="prof_img" />}
                         <div class="kryss">
                           <a href={`/profiler/`}>
@@ -628,50 +621,13 @@ class Profile extends Component {
                         </div>
               <div className="container">
                 <div className="profile-name">
-                    {/*(profile.type.name === "INPHO" && profile.name === "Fanny") ? (
-              <React.Fragment>
-                <img
-                  src={fannyNamn}
-                  alt='Fanny'
-                  align='center'
-                  className='name_img'
-                />
-                <br />
-                <br />
-              </React.Fragment>
-            ) :*/
-
-            (profile.type.name === "INPHO" && profile.name === "Snaran") ? (
-              <React.Fragment>
-                <img
-                  src= {snaran}
-                  alt='snaran'
-                  align='center'
-                  className='name_img'
-                />
-                <br />
-                <br />
-              </React.Fragment>
-            ) :
-
+                    {
+            
             (profile.type.name === "INPHO" && profile.name === "JW") ? (
               <React.Fragment>
                 <img
                   src= {jw}
                   alt='jw'
-                  align='center'
-                  className='name_img'
-                />
-                <br />
-                <br />
-              </React.Fragment>
-            ) :
-
-            (profile.type.name === "INPHO" && profile.name === "Darth") ? (
-              <React.Fragment>
-                <img
-                  src= {darth}
-                  alt='darth'
                   align='center'
                   className='name_img'
                 />
@@ -692,12 +648,11 @@ class Profile extends Component {
                 <br />
               </React.Fragment>
             ) :
-
-            (profile.type.name === "INPHO" && profile.name === "Soff") ? (
+            (profile.type.name === "INPHO" && profile.name === "Galilèo") ? (
               <React.Fragment>
                 <img
-                  src= {soff}
-                  alt='soff'
+                  src= {galileo}
+                  alt='galileo'
                   align='center'
                   className='name_img'
                 />
@@ -711,19 +666,6 @@ class Profile extends Component {
                 <img
                   src= {jackie}
                   alt='jackie'
-                  align='center'
-                  className='name_img'
-                />
-                <br />
-                <br />
-              </React.Fragment>
-            ) :
-
-            (profile.type.name === "INPHO" && profile.name === "Lou") ? (
-              <React.Fragment>
-                <img
-                  src= {lou}
-                  alt='lou'
                   align='center'
                   className='name_img'
                 />
@@ -802,8 +744,8 @@ class Profile extends Component {
                 <img className='profile-img' src={profile.profile_picture} alt=""/>*/}
                   </div>
                   {/* buttons */}
-                  {profile.username === "emilio" ? this.getFlappyPh() : null}
-                  {profile.username === "foppe" ? (
+                  {profile.username === "tom" ? this.getFlappyPh() : null}
+                  {profile.username === "jackie" ? (
                     <button
                       onClick={this.comicsans /*this.foppesKnapp*/}
                       style={{

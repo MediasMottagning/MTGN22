@@ -52,7 +52,7 @@
     max-width: 100%;
     padding: 20px;
     color: #000000;
-    margin: 6% auto;
+    margin: 0% auto;
     background-image: url('Login.png') ;
     background-repeat: no-repeat;
     background-size: contain;
@@ -103,7 +103,7 @@
     width: 24%;
     padding: 1.4% 8%;
     background-color: #7d1f27;
-    background-color: transparent;
+    background-color: #ffb734;
     border: none;
     color: #000000;
     font-family: Arcade;
