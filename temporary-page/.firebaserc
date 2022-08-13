@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "mottagningen-7063b"
-  }
+  },
+  "targets": {
+    "mottagningen-7063b": {
+      "hosting": {
+        "temppage": [
+          "mtgn-sommar"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

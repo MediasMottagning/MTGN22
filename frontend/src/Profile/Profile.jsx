@@ -15,9 +15,13 @@ import jackie from '../assets/easter-eggs/jackie.png'
 import billy from '../assets/easter-eggs/billy.jpg'
 import galileo from '../assets/easter-eggs/Galilèo.png'
 import milda from '../assets/easter-eggs/milda.png'
+import saga from '../assets/easter-eggs/saga-skype.png'
+import lola from '../assets/easter-eggs/Fracknamn - Lola.png'
+import gidfors from '../assets/easter-eggs/gidfors.png'
 import star from '../assets/profiles/star4.png'
 import questionMark from '../assets/profiles/question.png'
 import omnijin from '../assets/easter-eggs/omniman.gif'
+import bella from '../assets/easter-eggs/bella.png'
 import jackiechan from '../assets/easter-eggs/jackiechan.jpeg'
 import nilsson from '../assets/easter-eggs/nilsson.jpg'
 import kryss from '../assets/profiles/X.png' 
@@ -660,6 +664,55 @@ class Profile extends Component {
                 <br />
               </React.Fragment>
             ) :
+            (profile.type.name === "INPHO" && profile.name === "bella") ? (
+              <React.Fragment>
+                <img
+                  src= {bella}
+                  alt='bella'
+                  align='center'
+                  className='name_img'
+                />
+                <br />
+                <br />
+              </React.Fragment>
+            ) :
+
+            (profile.type.name === "INPHO" && profile.name === "Gidfors") ? (
+              <React.Fragment>
+                <img
+                  src= {gidfors}
+                  alt='gidfors'
+                  align='center'
+                  className='name_img'
+                />
+                <br />
+                <br />
+              </React.Fragment>
+            ) :
+            (profile.type.name === "INPHO" && profile.name === "lola") ? (
+              <React.Fragment>
+                <img
+                  src= {lola}
+                  alt='lola'
+                  align='center'
+                  className='name_img'
+                />
+                <br />
+                <br />
+              </React.Fragment>
+            ) :
+            (profile.type.name === "INPHO" && profile.name === "saga") ? (
+              <React.Fragment>
+                <img
+                  src= {saga}
+                  alt='saga'
+                  align='center'
+                  className='name_img'
+                />
+                <br />
+                <br />
+              </React.Fragment>
+            ) :
 
             (profile.type.name === "INPHO" && profile.name === "Jackie") ? (
               <React.Fragment>
@@ -673,6 +726,32 @@ class Profile extends Component {
                 <br />
               </React.Fragment>
             ) :
+
+            (profile.type.name === "INPHO" && profile.name === "Milda") ? (
+              <React.Fragment>
+                <img
+                  src= {milda}
+                  alt='milda'
+                  align='center'
+                  className='name_img'
+                />
+                <br />
+                <br />
+              </React.Fragment>
+            ) :            
+            (profile.type.name === "INPHO" && profile.name === "billy") ? (
+              <React.Fragment>
+                <img
+                  src= {billy}
+                  alt='billy'
+                  align='center'
+                  className='name_img'
+                />
+                <br />
+                <br />
+              </React.Fragment>
+            ) :
+            
 
             (profile.type.name === "RSA") ? (
                 <div class="rsa-name">{profile.name}</div>

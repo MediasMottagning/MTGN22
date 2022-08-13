@@ -1,6 +1,7 @@
 {
   "hosting": {
     "public": ".",
+    "site": "mtgn-sommar",
     "ignore": [
       "firebase.json",
       "**/.*",
