@@ -42,6 +42,7 @@ if app.config["DEBUG"]:
     adminUser.admin = True
     adminUser.hidden = True
     
+    
     """
     magikarparna = N0lleGroup(name="Magi-Karparna")
     krangligaKrabban = N0lleGroup(name="Krångliga Krabban")
